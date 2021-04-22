@@ -1,0 +1,77 @@
+:root {
+  --green: #21EB00;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: black;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 40px 40px 0 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu h1 {
+  color: var(--green);
+}
+
+.menu button {
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: 0;
+  background: var(--green);
+  color: black;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .titulo {
+  color: #4b4b4b;
+  font-size: 3rem;
+}
+
+.main .horario {
+  display: flex;
+}
+
+.main .horario h1 {
+  color: white;
+}
+
+.main .hora {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .hora h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.main p {
+  color: var(--green);
+  font-size: 18px;
+  margin-top: -50px;
+}
