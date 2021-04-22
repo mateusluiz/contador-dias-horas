@@ -49,5 +49,5 @@ setInterval(() => {
 let botaoReiniciar = document.querySelector('.menu button')
 
 botaoReiniciar.addEventListener('click', () => {
-  window.location.href = '/public/index.html'
+  window.location.href = '/'
 })
